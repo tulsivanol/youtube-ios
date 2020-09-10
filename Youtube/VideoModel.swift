@@ -8,8 +8,14 @@
 
 import Foundation
 
+protocol VideoModelDelegate {
+    func videosFetched(_ videos:[Video])
+}
+
 
 class VideoModel {
+    
+    var delegate:VideoModelDelegate?
     
     func getVideos(){
         
@@ -30,12 +36,18 @@ class VideoModel {
                 decoder.dateDecodingStrategy = .iso8601
                 let response = try decoder.decode(Response.self, from: data!)
                 
-                dump(response.items![0])
+                
+                if response.items != nil {
+                    
+                    DispatchQueue.main.async {
+                        self.delegate?.videosFetched(response.items!)
+                    }
+                    
+                }
                 
             }catch{
                 print("Unexpected error: \(error).")
             }
-            
             
             
         }
