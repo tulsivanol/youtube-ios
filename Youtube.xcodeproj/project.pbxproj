@@ -13,6 +13,9 @@
 		1918C0F625088216004305FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1918C0F425088216004305FB /* Main.storyboard */; };
 		1918C0F825088219004305FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1918C0F725088219004305FB /* Assets.xcassets */; };
 		1918C0FB25088219004305FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1918C0F925088219004305FB /* LaunchScreen.storyboard */; };
+		1918C10325089118004305FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C10225089118004305FB /* Constants.swift */; };
+		1918C105250891DC004305FB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C104250891DC004305FB /* Video.swift */; };
+		1918C1072508922F004305FB /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C1062508922F004305FB /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1918C0F725088219004305FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1918C0FA25088219004305FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1918C0FC25088219004305FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1918C10225089118004305FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1918C104250891DC004305FB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		1918C1062508922F004305FB /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				1918C0EE25088216004305FB /* AppDelegate.swift */,
 				1918C0F025088216004305FB /* SceneDelegate.swift */,
 				1918C0F225088216004305FB /* ViewController.swift */,
+				1918C10225089118004305FB /* Constants.swift */,
+				1918C104250891DC004305FB /* Video.swift */,
+				1918C1062508922F004305FB /* VideoModel.swift */,
 				1918C0F425088216004305FB /* Main.storyboard */,
 				1918C0F725088219004305FB /* Assets.xcassets */,
 				1918C0F925088219004305FB /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1918C0F325088216004305FB /* ViewController.swift in Sources */,
+				1918C1072508922F004305FB /* VideoModel.swift in Sources */,
 				1918C0EF25088216004305FB /* AppDelegate.swift in Sources */,
 				1918C0F125088216004305FB /* SceneDelegate.swift in Sources */,
+				1918C10325089118004305FB /* Constants.swift in Sources */,
+				1918C105250891DC004305FB /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
