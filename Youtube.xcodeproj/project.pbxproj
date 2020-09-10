@@ -16,6 +16,7 @@
 		1918C10325089118004305FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C10225089118004305FB /* Constants.swift */; };
 		1918C105250891DC004305FB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C104250891DC004305FB /* Video.swift */; };
 		1918C1072508922F004305FB /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C1062508922F004305FB /* VideoModel.swift */; };
+		19AB432D250A150F0077B0AB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB432C250A150F0077B0AB /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1918C10225089118004305FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1918C104250891DC004305FB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		1918C1062508922F004305FB /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		19AB432C250A150F0077B0AB /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1918C0F225088216004305FB /* ViewController.swift */,
 				1918C10225089118004305FB /* Constants.swift */,
 				1918C104250891DC004305FB /* Video.swift */,
+				19AB432C250A150F0077B0AB /* Response.swift */,
 				1918C1062508922F004305FB /* VideoModel.swift */,
 				1918C0F425088216004305FB /* Main.storyboard */,
 				1918C0F725088219004305FB /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				1918C0F125088216004305FB /* SceneDelegate.swift in Sources */,
 				1918C10325089118004305FB /* Constants.swift in Sources */,
 				1918C105250891DC004305FB /* Video.swift in Sources */,
+				19AB432D250A150F0077B0AB /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

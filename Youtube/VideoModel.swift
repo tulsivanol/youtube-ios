@@ -21,11 +21,22 @@ class VideoModel {
         
         let dataTask = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
-            if error != nil || data != nil {
-                print("Response from youtube",response!)
-                print("Data from youtube",data!)
+            if error != nil || data == nil {
                 return
             }
+            
+            do{
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response.items![0])
+                
+            }catch{
+                print("Unexpected error: \(error).")
+            }
+            
+            
             
         }
         
